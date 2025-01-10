@@ -51,7 +51,6 @@ public class SwingMain extends JFrame {
         this.setSize(800, 600);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-
         this.setLayout(new FlowLayout());
         this.add(createMoneyDialog());
         this.add(createCurrencyDialog());
